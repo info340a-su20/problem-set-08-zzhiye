@@ -1,6 +1,6 @@
-# Problem D
+# Problem: Senators
 
-In this exercise, you will practice creating simple React components using JSX. Specifically, you will create a simple page displaying a list of current (Nov 2019) US Senators and how you can contact them to complain:
+In this exercise, you will practice creating simple React components using JSX. Specifically, you will create a simple page displaying a list of US Senators (as of Nov 2019) and how you can contact them to complain:
 
 ![Example complete exercise](img/example-solution.png)
 
@@ -25,7 +25,7 @@ To complete the exercise, edit the included **`src/App.js`** and **`src/index.js
 
 (To make testing easier and more consistent, you will be defining all components for your App inside of the `App.js` module, as opposed to organizing them into separate modules).
 
-1. In the **`App.js`** file, implement and `export` a new class **`App`** that is a React Component (`extends` the imported `Component` class). This class should have a `render()` function that returns a `<div>` element with the `container` CSS class. The `<div>` should have a child `<h1>` element with the content `"US Senators 2018"`. 
+1. In the **`App.js`** file, implement and `export` a new class **`App`** that is a React Component (`extends` the imported `Component` class). This class should have a `render()` function that returns a `<div>` element with the `container` CSS class. The `<div>` should have a child `<h1>` element with the content `"US Senators 2019"`. 
   
     - _Use JSX to define these DOM elements!_ 
 

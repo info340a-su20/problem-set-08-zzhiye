@@ -1,4 +1,4 @@
-# Problem B
+# Problem: Pet Adoption (Interactive)
 
 In this exercise you will practice developing a React application with components, props, state, and events. You will do this by converting an existing "static" website into a dynamic one.
 
