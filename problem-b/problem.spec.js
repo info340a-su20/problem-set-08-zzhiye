@@ -41,7 +41,7 @@ describe('The pet adoption app', () => {
   });
 
   it('renders the App page structure', () => {
-    let appComponent = shallow(<App />); //shallow render; only this component (exclusive tests)
+    let appComponent = shallow(<App pets={TEST_PETS} />); //shallow render; only this component (exclusive tests)
 
     //header
     expect(appComponent.find('.jumbotron.jumbotron-fluid').length).toBe(1);
